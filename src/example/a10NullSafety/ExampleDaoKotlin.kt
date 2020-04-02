@@ -6,8 +6,8 @@ class ExampleDaoKotlin {
         val external = SomeExternalSystem()
 
 //      If we try this, kotlin compiler will complain
-//      What's that "String?" thing?
-//        return null
+//      What's that "String?" thing in the compilation error?
+//      return null
 
         return external.getSomeData(id) ?: throw Exception()
     }

@@ -7,7 +7,7 @@ public class ExampleDaoJava {
 
         String out = external.getSomeData(id);
 
-        // Java compiler doesn't know or care that this method
+        // Java compiler doesn't know that this method
         // can only return null
         return null;
 
