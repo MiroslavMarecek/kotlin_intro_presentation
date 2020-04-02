@@ -1,6 +1,6 @@
 package example.a70Sugarcoat;
 
-import example.Employee;
+import example.a50Collections.Employee;
 
 public class SugarcoatJava {
     void sugarcoat() {

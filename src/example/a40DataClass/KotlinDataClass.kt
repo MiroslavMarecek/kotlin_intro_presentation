@@ -7,6 +7,7 @@ data class KotlinDataClass(val id: Int,
 
 // - No easter eggs can be hidden in getters/setters
 
-// - No need to regenerate
+// - No need to regenerate, no danger of losing docs,
+//   or annotations and logic doing so
 
 // - Less boilerplate

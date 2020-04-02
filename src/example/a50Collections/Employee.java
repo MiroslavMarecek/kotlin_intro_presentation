@@ -1,4 +1,4 @@
-package example;
+package example.a50Collections;
 
 import java.util.Objects;
 

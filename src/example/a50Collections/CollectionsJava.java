@@ -1,8 +1,6 @@
 package example.a50Collections;
 
 import com.sun.istack.internal.NotNull;
-import example.City;
-import example.Employee;
 
 import java.util.List;
 
@@ -21,6 +19,8 @@ public class CollectionsJava {
         }
 
         if (count == 0) return 0;
+
+        employees.
 
         return ageSum / count;
     }

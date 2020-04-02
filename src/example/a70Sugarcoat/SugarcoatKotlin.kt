@@ -1,7 +1,7 @@
 package example.a70Sugarcoat
 
-import example.Employee
-import example.DataClassEmployee
+import example.a50Collections.Employee
+import example.a50Collections.DataClassEmployee
 
 fun sugarcoat() {
     // type inferred
