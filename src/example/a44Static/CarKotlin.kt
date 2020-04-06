@@ -2,8 +2,8 @@ package example.a44Static
 
 class CarKotlin(val horsepowers: Int) {
 
-    // - compiler-checked singleton, not a language-level construct
     // - Not spread out all over the place
+    // - compiler-checked singleton, not a language-level construct
     companion object Factory {
         val cars = mutableListOf<CarKotlin>()
 
@@ -13,4 +13,5 @@ class CarKotlin(val horsepowers: Int) {
             return car
         }
     }
+
 }

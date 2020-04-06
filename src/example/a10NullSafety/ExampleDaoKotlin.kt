@@ -7,7 +7,7 @@ class ExampleDaoKotlin {
 
 //      If we try this, kotlin compiler will complain
 //      What's that "String?" thing in the compilation error?
-//      return null
+//        return null
 
         return external.getSomeData(id) ?: throw Exception()
     }

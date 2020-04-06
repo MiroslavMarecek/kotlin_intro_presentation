@@ -1,5 +1,4 @@
 package example.a42ExtendingClasses
 
-class ExtendingClass(foo: Int) : CantExtendThis(foo: Int) {
-
-}
+                   // equivalent of "super", or implicit call
+class ExtendingClass(foo: Int) : CantExtendThis(foo)

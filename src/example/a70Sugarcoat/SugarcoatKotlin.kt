@@ -1,7 +1,8 @@
 package example.a70Sugarcoat
 
-import example.a50Collections.Employee
+import example.a30DataClass.KotlinDataClass
 import example.a50Collections.DataClassEmployee
+import example.a50Collections.Employee
 
 fun sugarcoat() {
     // type inferred
@@ -21,8 +22,9 @@ fun sugarcoat() {
     "Emp data: age: ${b.age} city: ${b.city}"
 
     //explicit NPE check
-    b!!.age
+    val d = KotlinDataClass(id = 1, name = null)
+    val e = d!!.name
 
     // no semicolons
-
+    // ;)
 }

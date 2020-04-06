@@ -23,7 +23,8 @@ public class SugarcoatJava {
         //maybe NPE?
         b.getAge();
 
+
         // must write semicolons
-        ;
+        // ;(
     }
 }

@@ -1,4 +1,4 @@
-package example.a40DataClass;
+package example.a30DataClass;
 
 import java.util.Objects;
 

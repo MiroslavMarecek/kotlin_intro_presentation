@@ -20,8 +20,7 @@ public class CollectionsJava {
 
         if (count == 0) return 0;
 
-        employees.
-
+        // or you can use streams
         return ageSum / count;
     }
 }

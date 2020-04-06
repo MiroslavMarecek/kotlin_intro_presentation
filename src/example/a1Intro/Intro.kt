@@ -1,8 +1,10 @@
 package example.a1Intro
 
+// *** KOTLIN ***
+
 // - "Java, but better"
 
-// - Developed by JetBrains, in Prague and St. Petersburg
+// - Developed by JetBrains, in Prague and elsewhere
 
 // - Compiles into JVM bytecode, JavaScript, or native
 
