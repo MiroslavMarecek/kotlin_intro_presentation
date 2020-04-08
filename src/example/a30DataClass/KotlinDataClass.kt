@@ -5,11 +5,12 @@ data class KotlinDataClass(
     val name: String?,
     var surname: String = "A default surname"
 )
-// - Uses Kotlin's null-safe typing and default values
+// - Uses Kotlin's null-safe typing, variable finality and default values
 
 // - No surprise logic can be hidden in getters/setters
 
-// - No need to regenerate, no danger of losing docs,
-//   or annotations and logic doing so
+// - No need to regenerate, no danger of losing docs, or annotations and logic doing so
 
 // - Less boilerplate
+
+// - Nobody catches you at an interview not knowing what's in hashcode()

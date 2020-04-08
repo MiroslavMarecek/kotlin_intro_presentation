@@ -2,7 +2,7 @@ package example.a41SmartCasting
 
 //SOURCE: https://www.journaldev.com/19684/kotlin-type-checking-kotlin-type-casting
 class SmartCasting {
-    fun getName(obj: Any?) {
+    fun getLength(obj: Any?) {
 
         // if we comment this out, smartlyCastStrinstring would
         // only be an "Any" variable
@@ -11,13 +11,7 @@ class SmartCasting {
         }
 
         // We know that this is String at compile time
-        val smartlyCastString = obj
-
-        println("Length of the string is ${smartlyCastString.length}")
+        println("Length of the string is ${obj.length}")
     }
 
-    fun print() {
-        getName(null)
-        getName("Anupam")
-    }
 }

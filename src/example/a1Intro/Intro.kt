@@ -8,7 +8,7 @@ package example.a1Intro
 
 // - Compiles into JVM bytecode, JavaScript, or native
 
-// - 100% compatible with Java
+// - 100% compatible with Java(don't recommend it, though)
 
 // - Can do anything Java can
 

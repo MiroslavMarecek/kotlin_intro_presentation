@@ -11,7 +11,7 @@ class ValVar {
         bar = "BBBBB" //OK
     }
 
-    // Same with Collections:
+    // Similar approach used with with Collections:
     fun immutableCollections() {
         val immutableList = listOf("a", "b", "c")
         immutableList.add("d")
@@ -21,5 +21,10 @@ class ValVar {
         mutableList.add("d")
         mutableList.remove("d")
     }
+
+    // - Compiler checked
+    // - Self-documenting
+    // - Explicitly declared as mutable or not, there's no "hmm, maybe" possibility.
+    // - Succinct
 
 }

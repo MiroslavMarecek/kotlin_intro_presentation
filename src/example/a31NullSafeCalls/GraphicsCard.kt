@@ -1,5 +1,5 @@
 package example.a31NullSafeCalls
 
-data class GraphicsCard (
+data class GraphicsCard(
     var collingSystem: String
 )

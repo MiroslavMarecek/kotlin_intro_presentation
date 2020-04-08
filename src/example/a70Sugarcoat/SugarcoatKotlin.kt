@@ -1,5 +1,6 @@
 package example.a70Sugarcoat
 
+import example.a30DataClass.JavaPojo
 import example.a30DataClass.KotlinDataClass
 import example.a50Collections.DataClassEmployee
 import example.a50Collections.Employee
@@ -14,16 +15,15 @@ fun sugarcoat() {
     // named arguments
     val c = DataClassEmployee(age = 42)
 
-
     // nice equals
     "foo" == "bar"
 
     // succinct Strings
-    "Emp data: age: ${b.age} city: ${b.city}"
+    "Emp data: age: ${b.age}, city: ${b.city}"
 
     //explicit NPE check
-    val d = KotlinDataClass(id = 1, name = null)
-    val e = d!!.name
+    val d = JavaPojo()
+    val e = d.name!!
 
     // no semicolons
     // ;)
