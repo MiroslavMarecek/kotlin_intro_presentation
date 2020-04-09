@@ -20,8 +20,17 @@ public class SugarcoatJava {
         // verbose Strings
         String s = "Emp data: age:" + c.getAge() + " city: " + c.getCity();
 
-        //maybe NPE?
+        // maybe NPE?
         b.getAge();
+
+        // wordy assignment with condition
+        boolean condition = true;
+        Integer x;
+        if (condition) {
+            x = 13;
+        } else {
+            x = 100;
+        }
 
 
         // must write semicolons

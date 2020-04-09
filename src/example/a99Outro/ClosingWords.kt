@@ -19,3 +19,8 @@ package example.a99Outro
 
 //  Q: "Hey, what about [some weirdness with nullability?]"
 //  A: Because of Java interop mess, see https://www.youtube.com/watch?v=2IhT8HACc2E
+
+// Thing we didn't get to:
+// - packaged extensive, succinct, out-of-the-box functionality (think List.average() earlier)
+// - threads & coroutines
+// - extension functions, delegated properties, inline functions...

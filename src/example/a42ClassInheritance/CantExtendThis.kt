@@ -1,4 +1,4 @@
-package example.a42ExtendingClasses
+package example.a42ClassInheritance
 
 // Classes are final by default, we must explicitly state
 // that we want this class to be extendable
