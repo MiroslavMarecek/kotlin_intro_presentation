@@ -1,5 +1,6 @@
 package example.a70Sugarcoat;
 
+import example.a50Collections.City;
 import example.a50Collections.Employee;
 
 public class SugarcoatJava {
@@ -13,15 +14,17 @@ public class SugarcoatJava {
         // new constructor/field assignment
         Employee c = new Employee();
         c.setAge(42);
+        c.setCity(City.PRAGUE);
 
         // ugly equals
         "foo".equals("bar");
 
         // verbose Strings
-        String s = "Emp data: age:" + c.getAge() + " city: " + c.getCity();
+        String s = "Emp data - age:" + c.getAge() + " city: " + c.getCity();
 
         // maybe NPE?
         b.getAge();
+
 
         // wordy assignment with condition
         boolean condition = true;

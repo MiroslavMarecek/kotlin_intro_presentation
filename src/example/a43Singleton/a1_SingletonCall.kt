@@ -1,14 +1,14 @@
 package example.a43Singleton
 
 // SOURCE: https://www.emanprague.com/en/blog/kotlin-top-10-features-youll-love/
-class SingletonCall {
+class a1_SingletonCall {
 
     fun callSingletonJava() {
-        SingletonJava.getInstance().doSomething()
+        a2_SingletonJava.getInstance().doSomething()
     }
 
     fun callSingletonKotlin() {
-        SingletonKotlin.doSomething()
+        a3_SingletonKotlin.doSomething()
     }
 
 }

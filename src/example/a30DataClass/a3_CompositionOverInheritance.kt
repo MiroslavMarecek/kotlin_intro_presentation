@@ -36,11 +36,11 @@ data class CreditCard(
 
 
 
-// You cannot extend data classes.
+// You cannot extend data classes
+// Reason: equals() is then a mess, not that much added value
 // We have to use composition, rather than inheritance.
-// Not a feature per se, rather a pattern forced by omission.
 
-data class CreditCard2(
+data class CreditCard_AfterTheChange(
     val id: Int,
     val securityCode: String, 
     val premiumProgram: PremiumProgram?

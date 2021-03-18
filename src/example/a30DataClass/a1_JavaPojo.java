@@ -2,7 +2,7 @@ package example.a30DataClass;
 
 import java.util.Objects;
 
-public class JavaPojo {
+public class a1_JavaPojo {
 
     Integer id;
     String name;
@@ -36,10 +36,10 @@ public class JavaPojo {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        JavaPojo javaPojo = (JavaPojo) o;
-        return Objects.equals(id, javaPojo.id) &&
-                Objects.equals(name, javaPojo.name) &&
-                Objects.equals(surname, javaPojo.surname);
+        a1_JavaPojo AJavaPojo = (a1_JavaPojo) o;
+        return Objects.equals(id, AJavaPojo.id) &&
+                Objects.equals(name, AJavaPojo.name) &&
+                Objects.equals(surname, AJavaPojo.surname);
     }
 
     @Override

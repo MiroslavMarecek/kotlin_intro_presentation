@@ -1,16 +1,16 @@
 package example.a43Singleton;
 
 // SOURCE: https://www.emanprague.com/en/blog/kotlin-top-10-features-youll-love/
-public class SingletonJava {
+public class a2_SingletonJava {
     // we may forget this, no longer a Singleton
-    private SingletonJava() {
+    private a2_SingletonJava() {
     }
 
-    private static SingletonJava INSTANCE;
+    private static a2_SingletonJava INSTANCE;
 
-    public static SingletonJava getInstance() {
+    public static a2_SingletonJava getInstance() {
         if (INSTANCE == null) {
-            INSTANCE = new SingletonJava();
+            INSTANCE = new a2_SingletonJava();
         }
 
         return INSTANCE;

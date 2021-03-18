@@ -2,13 +2,15 @@ package example.a20ValVar
 
 class ValVar {
 
-    // Must declare whether reassignable or not
     fun valVar() {
         val foo = "foo"
-        var bar = "bar"
+        foo = "AAAAA" //val cannot be reassigned
 
-        foo = "AAAAA" //val cannot be assigned
+        var bar = "bar"
         bar = "BBBBB" //OK
+
+        var baz = "baz" // non-modified var warning
+        val whatev = foo + bar + baz
     }
 
     // Similar approach used with with Collections:
@@ -22,9 +24,9 @@ class ValVar {
         mutableList.remove("d")
     }
 
+    // - Explicitly declared as mutable or not, no ambiguous state.
     // - Compiler checked
     // - Self-documenting
-    // - Explicitly declared as mutable or not, there's no "hmm, maybe" possibility.
     // - Succinct
 
 }

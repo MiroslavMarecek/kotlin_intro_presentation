@@ -1,10 +1,9 @@
 package example.a31NullSafeCalls
 
-class NullSafeCallKotlin {
+class  a1_NullSafeCallKotlin {
 
-    // compiler checked - cannot return non-nullable type
     fun getCoolingSystem(computer: Computer): String? {
-        // compiler checked - cannot jut get cooligSystem
+        // compiler checked - cannot jut get coolingSystem
         return computer.graphicsCard?.collingSystem
     }
 }

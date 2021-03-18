@@ -14,4 +14,6 @@ class Erasure {
         sort(listOf("a", "c", "d", "c"))
         sort(listOf(true, false))
     }
+
+    // same name in code, different in bytecode
 }

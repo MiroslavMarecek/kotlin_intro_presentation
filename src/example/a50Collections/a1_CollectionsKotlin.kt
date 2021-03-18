@@ -1,6 +1,6 @@
 package example.a50Collections
 
-class CollectionsKotlin {
+class a1_CollectionsKotlin {
 
     // SOURCE: https://www.emanprague.com/en/blog/kotlin-top-10-features-youll-love/
     fun getAverageAge(employees: List<Employee>): Double {
